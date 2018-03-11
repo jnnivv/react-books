@@ -14,8 +14,11 @@ class App extends Component {
     this.state = {
       inputValue: ''
     }
+
+
     this.handleClick = this.handleClick.bind(this)
   }
+
 
   // handle add to wishlist button click function
   handleClick (e) {
@@ -30,6 +33,7 @@ class App extends Component {
       inputValue: evt.target.value
     });
     console.log(this.state.inputValue)
+
   }
 
   render() {

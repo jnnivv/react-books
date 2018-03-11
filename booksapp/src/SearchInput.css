@@ -1,0 +1,13 @@
+input[role=combobox] {
+  width:100%;
+  padding: 12px 18px;
+  margin-bottom:20px;
+  border-radius: 5px;
+  border: 1px solid #eee;
+  color:#888;
+  font-style:italic;
+  -moz-transition: all .2s ease-in;
+  -o-transition: all .2s ease-in;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+}
