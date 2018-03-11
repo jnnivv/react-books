@@ -1,0 +1,75 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+main {
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+  text-align:center;
+}
+input[type=text] {
+  width:100%;
+  padding: 12px 18px;
+  margin-bottom:20px;
+  border-radius: 5px;
+  border: 1px solid #eee;
+  color:#888;
+  font-style:italic;
+  -moz-transition: all .2s ease-in;
+  -o-transition: all .2s ease-in;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+}
+
+input[type=text]:focus {
+  border: 1px solid #4990E2;
+}
+
+input[type=submit] {
+  padding: 12px 18px;
+  background-color: #fff;
+  border-radius: 5px;
+  border: 1px solid #888;
+  -moz-transition: all .2s ease-in;
+  -o-transition: all .2s ease-in;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+  text-transform:uppercase;
+
+}
+
+input[type=submit]:hover {
+  cursor:pointer;
+  background-color: #4990E2;
+  border: 1px solid #4990E2;
+  color:#fff;
+}
