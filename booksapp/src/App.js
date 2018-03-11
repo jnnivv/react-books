@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import SearchInput from './SearchInput.js';
 import axios from 'axios';
 import querystring from 'querystring';
-import react-autocomplete from 'react-autocomplete'
+import autocomplete from 'react-autocomplete'
 
 
 class App extends Component {
@@ -35,6 +36,7 @@ class App extends Component {
     return (
       <main>
         <form id="search_book">
+          <SearchInput />
           <input type="text" name="title" placeholder="Search for a book..." value={this.state.inputValue} onChange={evt => this.updateInputValue(evt)} /><br/>
           <input type="submit" value="Add to wishlist" id="add" onClick={this.handleClick}/>
         </form>
